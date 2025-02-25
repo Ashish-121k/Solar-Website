@@ -28,7 +28,7 @@ const Product = () => {
             </div>
             <div className="flex justify-between items-center text-black">
               <span>Battery Backup | Independent Power</span>
-              <NavLink to="/product-details" className="text-[#1230AE] hover:underline">View Details →</NavLink>
+              <NavLink to="/product-details" className="text-[#1230AE] hover:underline">View Details</NavLink>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ const Product = () => {
             </div>
             <div className="flex justify-between items-center text-black">
               <span>Remote access | Recording </span>
-              {/* <NavLink to="#" className="text-[#1230AE] hover:underline">View Details →</NavLink> */}
+              <NavLink to="/product-details02" className="text-[#1230AE] hover:underline">View Details</NavLink>
             </div>
           </div>
         </div>
@@ -65,6 +65,7 @@ const Product = () => {
             </div>
             <div className="flex justify-between items-center text-black">
               <span>Advanced Authentication Technology</span>
+              <NavLink to="/product-details03" className="text-[#1230AE] hover:underline">View Details</NavLink>
               {/* <NavLink to="#" className="text-[#1230AE] hover:underline">View Details →</NavLink> */}
             </div>
           </div>
@@ -87,7 +88,9 @@ const Product = () => {
             </div>
             <div className="flex justify-between items-center text-black">
               <span>Video & Audio Verification</span>
+              <NavLink to="/product-details04" className="text-[#1230AE] hover:underline">View Details</NavLink>
               {/* <NavLink to="" className="text-[#1230AE] hover:underline">View Details →</NavLink> */}
+              
             </div>
           </div>
         </div>
@@ -106,6 +109,7 @@ const Product = () => {
             </div>
             <div className="flex justify-between items-center text-black">
               <span>Manual Call Points</span>
+              <NavLink to="/product-details05" className="text-[#1230AE] hover:underline">View Details</NavLink>
               {/* <NavLink to="#" className="text-[#1230AE] hover:underline">View Details →</NavLink> */}
             </div>
           </div>
@@ -125,6 +129,7 @@ const Product = () => {
             </div>
             <div className="flex justify-between items-center text-black">
               <span>Ionization & Photoelectric Types</span>
+              <NavLink to="/product-details06" className="text-[#1230AE] hover:underline">View Details</NavLink>
               {/* <NavLink to="#" className="text-[#1230AE] hover:underline">View Details →</NavLink> */}
             </div>
           </div>
