@@ -1,7 +1,7 @@
-import './index.css'
-import Navbar from './Components/Navbaar/Navbar'
-import {createBrowserRouter, RouterProvider} from 'react-router-dom'
-import Home from './Pages/Home'
+import './index.css';
+import Navbar from './Components/Navbaar/Navbar';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './Pages/Home';
 import Contact from './Pages/Contact';
 import Offer from './Pages/Offer';
 import About from './Pages/About';
@@ -16,139 +16,164 @@ import Product_details03 from './Pages/Product_details03';
 import Product_details04 from './Pages/Product_details04';
 import Product_details05 from './Pages/Product_details05';
 import Product_details06 from './Pages/Product_details06';
-
+import ScrollToTop from './ScrollToTop';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element:<>
-            
-              <Navbar/>
-              <Home/>
-              <Footer/>
-            </>
+    element: (
+      <>
+        <ScrollToTop />
+        <Navbar />
+        <Home />
+        <Footer />
+      </>
+    )
   },
   {
     path: '/getstarted',
-    element:<>
-             
-              <Navbar/>
-              <Hero2/>
-              <About/>
-              <Services/>
-              <Offer/>
-              <Portfolio/>
-              <Contact/>
-              <Footer/>
-            </>
+    element: (
+      <>
+        <ScrollToTop />
+        <Navbar />
+        <Hero2 />
+        <About />
+        <Services />
+        <Offer />
+        <Portfolio />
+        <Contact />
+        <Footer />
+      </>
+    )
   },
   {
     path: '/services',
-    element: <>
-              
-              <Navbar/>
-              <Services/>
-              <Footer/>
-            </>
+    element: (
+      <>
+        <ScrollToTop />
+        <Navbar />
+        <Services />
+        <Footer />
+      </>
+    )
   },
   {
     path: '/products',
-    element: <>
-              
-              <Navbar/>
-              <Product/>
-              <Footer/>
-            </>,
+    element: (
+      <>
+        <ScrollToTop />
+        <Navbar />
+        <Product />
+        <Footer />
+      </>
+    )
   },
   {
     path: '/product-details',
-    element: <>
-              <Product_details/>
-            </>
+    element: (
+      <>
+        <ScrollToTop />
+        <Product_details />
+      </>
+    )
   },
-
   {
     path: '/product-details02',
-    element:
-            <>
-            <Product_details02/>
-            </>   
+    element: (
+      <>
+        <ScrollToTop />
+        <Product_details02 />
+      </>
+    )
   },
-
   {
     path: '/product-details03',
-    element:
-            <>
-            <Product_details03/>
-            </>   
+    element: (
+      <>
+        <ScrollToTop />
+        <Product_details03 />
+      </>
+    )
   },
   {
     path: '/product-details04',
-    element:
-            <>
-            <Product_details04/>
-            </>   
+    element: (
+      <>
+        <ScrollToTop />
+        <Product_details04 />
+      </>
+    )
   },
   {
     path: '/product-details05',
-    element:
-            <>
-            <Product_details05/>
-            </>   
+    element: (
+      <>
+        <ScrollToTop />
+        <Product_details05 />
+      </>
+    )
   },
   {
     path: '/product-details06',
-    element:
-            <>
-            <Product_details06/>
-            </>   
+    element: (
+      <>
+        <ScrollToTop />
+        <Product_details06 />
+      </>
+    )
   },
   {
     path: '/contactus',
-    element:<>
-              
-              <Navbar/>
-              <Contact/>
-              <Footer/>
-            </>
+    element: (
+      <>
+        <ScrollToTop />
+        <Navbar />
+        <Contact />
+        <Footer />
+      </>
+    )
   },
   {
     path: '/offers',
-    element:<>  
-             
-              <Navbar/>
-              <Offer/>
-              <Footer/>
-            </>
+    element: (
+      <>
+        <ScrollToTop />
+        <Navbar />
+        <Offer />
+        <Footer />
+      </>
+    )
   },
   {
     path: '/about',
-    element:<>
-            
-              <Navbar/>
-              <About/>
-              <Footer/>
-            </>
+    element: (
+      <>
+        <ScrollToTop />
+        <Navbar />
+        <About />
+        <Footer />
+      </>
+    )
   },
   {
     path: '/portfolio',
-    element:<>
-              
-              <Navbar/>
-              <Portfolio/>
-              <Footer/>
-            </>
+    element: (
+      <>
+        <ScrollToTop />
+        <Navbar />
+        <Portfolio />
+        <Footer />
+      </>
+    )
   }
-
 ]);
 
 function App() {
-
   return (
     <div>
-        <RouterProvider router = {router}/>
+      <RouterProvider router={router} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
