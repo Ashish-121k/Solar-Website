@@ -92,7 +92,7 @@ const Footer = () => {
 
         <div className="border-t border-neutral-600">
           <div className="flex justify-center items-center">
-            <div className="text-gray-400 text-sm pt-2">
+            <div className="text-gray-400 text-xs pt-2">
               Developed & Designed by <a href='https://vstgrowthbusiness.com/' target='_blank' className='hover:text-[#1230AE]'>VST Growth Business</a>
             </div>
             <a href="https://vstgrowthbusiness.com/" target='_blank'>
