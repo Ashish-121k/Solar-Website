@@ -11,6 +11,11 @@ import Product from './Pages/Product';
 import Portfolio from './Pages/Portfolio';
 import Hero2 from './Components/Hero/Hero2';
 import Product_details from './Pages/Product_details';
+import Product_details02 from './Pages/Product_details02';
+import Product_details03 from './Pages/Product_details03';
+import Product_details04 from './Pages/Product_details04';
+import Product_details05 from './Pages/Product_details05';
+import Product_details06 from './Pages/Product_details06';
 
 
 const router = createBrowserRouter([
@@ -59,7 +64,44 @@ const router = createBrowserRouter([
     path: '/product-details',
     element: <>
               <Product_details/>
-            </>,
+            </>
+  },
+
+  {
+    path: '/product-details02',
+    element:
+            <>
+            <Product_details02/>
+            </>   
+  },
+
+  {
+    path: '/product-details03',
+    element:
+            <>
+            <Product_details03/>
+            </>   
+  },
+  {
+    path: '/product-details04',
+    element:
+            <>
+            <Product_details04/>
+            </>   
+  },
+  {
+    path: '/product-details05',
+    element:
+            <>
+            <Product_details05/>
+            </>   
+  },
+  {
+    path: '/product-details06',
+    element:
+            <>
+            <Product_details06/>
+            </>   
   },
   {
     path: '/contactus',
