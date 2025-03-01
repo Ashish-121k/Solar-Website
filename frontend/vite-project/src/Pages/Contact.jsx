@@ -65,7 +65,6 @@ const Contact = () => {
       </div>
 
       <div className="grid lg:grid-cols-2 gap-12">
-        {/* Contact Information Section */}
         <div className="animate__animated animate__fadeInLeft">
           <div className="bg-neutral-900 p-8 rounded-2xl text-white">
             <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
@@ -152,7 +151,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Contact Form Section */}
         <div className="animate__animated animate__fadeInRight">
           <form onSubmit={handleSubmit} id="formId" className="bg-neutral-900 p-8 rounded-2xl">
             <div className="grid md:grid-cols-2 gap-6 mb-6">
